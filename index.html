@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/main.js" type='module' defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon/icons8-internet-100.png" type="image/x-icon">
+    <title>Consumo Api - Via Cep</title>
+</head>
+<body>
+    <main class="container">
+        <h1 class="title">Informe o CEP</h1>
+        <div class="row">
+            <div class="inputbox">
+                <input type="text" id="cep"  required>
+                <label for="cep">CEP</label>
+            </div>
+            <div class="inputbox">
+                <input type="text" id="endereco"  required>
+                <label for="endereco">Endereço</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="inputbox">
+                <input type="text" id="bairro"  required>
+                <label for="bairro">Bairro</label>
+            </div>
+            <div class="inputbox">
+                <input type="text" id="cidade"  required>
+                <label for="cidade">Cidade</label>
+            </div>
+            <div class="inputbox">
+                <input type="text" id="uf"  required>
+                <label for="uf">Estado</label>
+            </div>
+            <div class="inputbox">
+                <input type="text" id="ibge"  required>
+                <label for="ibge">IBGE</label>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <button id="salvar">Salvar</button>
+        </div>
+        <div class="row">
+            <button id="carregar">Carregar Dados</button>
+        </div>
+    </main>
+    <br>
+    <footer>
+        Desenvolvido por Jonas Arcuri &#169 2024
+    </footer>
+</body>
+</html>

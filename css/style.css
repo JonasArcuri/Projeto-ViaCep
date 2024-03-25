@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(146, 169, 254);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.row .inputbox {
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
