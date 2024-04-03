@@ -8,7 +8,7 @@ Decidi me desafiar e encarar este mini projeto, para entender, raciocinar e util
 
 ## Stack utilizada
 
-**Front-end:** Javascript
+**Front-end:** Javascriptm HTML, Css
 
 
 
